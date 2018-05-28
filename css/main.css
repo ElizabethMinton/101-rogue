@@ -1,0 +1,111 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 15px;
+}
+
+/****GRID****/
+.full-width {
+    width: 1200px
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****HEADER****/
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h1 span {
+    color:#77a466;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px 15px 0 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+    font-size:14px;
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+/****WELCOME****/
+
+img {
+    border: 5px solid #77a466;
+}
+
+#welcome h2 {
+    font-weight: bold;
+    color: #77a466;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+#welcome p {
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+/****INFO SECTION****/
+
+#info h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#specials a {
+    color: #77a466;
+    text-decoration: none;
+}
+   
+#specials li {
+    text-transform: uppercase;
+    list-style: none;
+    text-indent: -40px;
+    padding-bottom: 15px;
+}
+
+#reviews {
+    width: 340px;
+    padding-left: 40px;
+}
+
+#contact {
+    width: 300px;
+    padding-left: 100px;
+}
+
+/****FOOTER****/
+
+footer {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+#fresh span {
+    color: #77a466;
+    font-family: yesteryear;
+}
