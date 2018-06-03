@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Wisdom script;
+    src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
 body {
     font-family: Montserrat, sans-serif;
     font-size: 16px;
@@ -68,6 +73,12 @@ img {
 
 /****INFO SECTION****/
 
+#info .full-width {
+    height: 200px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
 #info h3 {
     text-transform: uppercase;
     font-size: 12px;
@@ -87,12 +98,17 @@ img {
 
 #reviews {
     width: 340px;
-    padding-left: 40px;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-left: 1px solid lightgray;
 }
 
 #contact {
     width: 300px;
-    padding-left: 100px;
+    padding-left: 50px;
+    height: 200px;
+    border-left: 1px solid lightgray;
 }
 
 /****FOOTER****/
@@ -107,5 +123,8 @@ footer {
 
 #fresh span {
     color: #77a466;
-    font-family: yesteryear;
+    font-family: wisdom script;
+    text-transform: lowercase;
+    font-weight: 200;
+    font-size: 16px;
 }
